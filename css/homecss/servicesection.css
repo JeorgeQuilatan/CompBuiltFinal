@@ -1,0 +1,103 @@
+@import url(../homecss/productsection.css);
+section#servicesection{
+    height:50vh;
+    width:100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color:#353839;
+}
+
+.servicetext{
+    height:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicetext h1{
+    color:#F4EBDC;
+    font-size:40px;
+    font-weight:900;
+    letter-spacing: 5px;
+}
+
+.servicebox{
+    height:60%;
+    width:90%;
+    display: flex;
+}
+
+.service{
+    height:100%;
+    width:20%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 1px solid #F4EBDC ;
+}
+
+.iconbox{
+    height:50%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F4EBDC ;
+}
+
+.iconbox i{  
+    font-size: 60px;
+    color:#F4EBDC;
+}
+
+.servicetextarea{
+    margin-top:30px;
+    height:50%;
+    width:90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow:column;
+}
+
+.servicetextarea h1{
+    text-align: center;
+    color:#F4EBDC;
+    font-size:20px;
+    letter-spacing: 3px;
+}
+
+.servicetextarea p{
+    font-size: 12px;
+    font-weight:300;
+    text-align: center;
+    color:#F4EBDC;
+}
+
+.seemorebtn{
+    height:20%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seemorebtn a{
+    width:100px;
+    height:40px;
+    border-radius:30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:500;
+    color:#F4EBDC;
+    transition:all 0.3s ease 0s;
+}
+
+.seemorebtn a:hover{
+    font-weight:800;
+    color:#353839;
+    background-color:#F4EBDC;
+    transform: scale(1.1);
+}

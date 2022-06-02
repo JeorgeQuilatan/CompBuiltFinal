@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('/css/homecss/footersection.css');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: #F4EBDC;
+
+}
+
+
+#header {
+    height: 20vh;
+    width: 100%;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #353839;
+}
+
+    .header .logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 40%;
+    }
+
+    .header img {
+        width: 110px;
+        height: 90px;
+    }
+
+    .header h1 {
+        font-size: 50px;
+        font-weight: 800;
+        color: #F4EBDC;
+        letter-spacing: 5px;
+    }
+
+nav {
+    height: 100%;
+    width: 60%;
+}
+
+    nav ul {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+        nav ul li {
+            list-style: none;
+        }
+
+            nav ul li a {
+                text-decoration: none;
+                color: #F4EBDC;
+                transition: all 0.3s ease 0s;
+                font-weight: 300;
+            }
+
+                nav ul li a:hover {
+                    font-weight: 800;
+                    font-size: 20px;
+                }
+                .dropdown {
+                    overflow: hidden;
+                  }
+                
+                  .dropdown .dropbtn {
+                    font-weight: 300;
+                    font-size: 16px;
+                    border: none;
+                    outline: none;
+                    color:#F4EBDC;
+                    padding: 14px 16px;
+                    background-color: inherit;
+                    font-family: inherit; /* Important for vertical align on mobile phones */
+                    margin: 0; /* Important for vertical align on mobile phones */
+                  }
+                
+                  .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 1;
+                  }
+                
+                  .dropdown i{
+                      font-size:15px;
+                  }
+                  
+                  /* Links inside the dropdown */
+                  .dropdown-content a {
+                    float: none;
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                  }
+                
+                  .dropdown-content a:hover {
+                    background-color:#F4EBDC;
+                  }
+                  
+                  /* Show the dropdown menu on hover */
+                  .dropdown:hover .dropdown-content {
+                    display: block;
+                  }
+#services_section {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
+.skillbox {
+    display: flex;
+    height: 160vh;
+    width: 100%;
+    justify-content:center;
+}
+
+.rowone {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.one {
+    height: 200%;
+    width: 100%;
+}
+
+.two {
+    height: 200%;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    visibility:hidden;
+    
+}
+
+.rowtwo {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+}
+
+.h1content {
+    font-size: 40px;
+    text-align: center;
+}
+
+.h2content {
+    font-size: 40px;
+    text-align: center;
+    color: #F4EBDC;
+    letter-spacing: 5px;
+}
+
+.textbox {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    visibility: hidden;
+    padding: 0px 10px 0px 10px;
+}
+
+p {
+    color: #F4EBDC;
+    font-size: 1.5em;
+    text-align: justify;
+    height: auto;
+    line-height: 50px;
+}
+

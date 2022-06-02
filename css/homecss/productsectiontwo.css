@@ -1,0 +1,192 @@
+@import url('/css/homecss/visionsection.css');
+section#productsectiontwo
+{
+    height:100vh;
+    width:100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.productbodytwo{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-flow:column;
+    justify-content: space-around;
+}
+
+.producttwobox{
+    height:50%;
+    width:100%;
+    border:1px solid black;
+    display: flex;
+}
+
+.productone-a{
+    width:50%;
+    height:100%;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.productone-a-textarea{
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    height:80%;
+    width:100%;
+}
+
+.productone-a-textarea-boxone{
+    height:40%;
+    width:90%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.productone-a-textarea-boxone h1{
+    color:#353839;
+    font-size: 60px;
+}
+
+.productone-a-textarea-boxtwo{
+    height:40%;
+    width:90%;
+    display: flex;
+    align-items: center;
+}
+
+.productone-a-textarea-boxthree{
+    height:20%;
+    width:90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.productone-a-textarea-boxthree a{
+    width:100px;
+    height:40px;
+    border-radius:30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:300;
+    color:#353839;
+    transition:all 0.3s ease 0s;
+    font-size:13px;
+    border:1px solid #353839;
+}
+
+.productone-a-textarea-boxthree a:hover{
+    font-weight:500;
+    color:#F4EBDC;
+    background-color: #353839;
+    transform: scale(1.1);
+}
+/**/
+.producttwo-a{
+    width:50%;
+    height:100%;
+    border:1px solid black;
+    background-image:url('/images/homeimages/roggpu.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.producttwo-a h1{
+    color:#F4EBDC;
+    width:100%;
+    height:50%;
+    background-color:rgba(0, 0, 0, 0.6);
+    font-size:60px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.producttwo-a-dotbox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:10%;
+    width:5%;
+}
+
+.product-dotbox .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    display: flex;
+  }
+
+
+.producttwo-ab{
+    display: none;
+    width:50%;
+    height:100%;
+    border:1px solid black;
+    background-image: url('/images/homeimages/rtx3090.jpg');
+    background-size: cover;
+    background-position: center;  
+}
+
+.producttwo-ab h1{
+    color:#F4EBDC;
+    width:100%;
+    height:50%;
+    background-color:rgba(0, 0, 0, 0.6);
+    font-size:60px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.producttwo-ab-dotbox{
+    justify-content: space-evenly;
+    align-items: center;
+    height:10%;
+    width:5%;
+}
+
+.product-ab-dotbox .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    display: flex;
+  }
+
+.productbodythree{
+    border:1px solid black;
+    width:100%;
+    height:50%;
+    display: flex;
+    flex-flow:column;
+    background-image: url('/images/homeimages/kb.png');
+    background-size: cover;
+    justify-content: center;
+}
+
+.productbodythree h1{
+    color:#F4EBDC;
+    font-size: 50px;
+    background-color: black;
+    width:30%;
+    height:100%;
+}
+
+

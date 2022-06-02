@@ -1,0 +1,92 @@
+@import url('/css/homecss/footersection.css');
+section#visionsection
+{
+    height:60vh;
+    width:100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.visionbox{
+    display: flex;
+    flex-flow:column;
+    height:100%;
+    width:100%;
+    margin-bottom:100px;
+}
+
+.visionboxone{
+    height:20%;
+    width:100%;
+}
+
+.visionboxtwo{
+    display: flex;
+    flex-flow: row;
+    height:80%;
+    width:100%;
+}
+
+.visionimagearea{
+    width:40%;
+    height:100%;
+    background-image: url('/images/homeimages/vision.jpg');
+    background-size: cover;
+}
+
+.visiontextarea{
+    display: flex;
+    flex-flow: column;
+    width:60%;
+    height:100%;
+}
+
+.visiontextareaone{
+    width:100%;
+    height:10%;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353839;
+
+}
+
+.visiontextareaone h1{
+    font-size:20px;
+    color: #F4EBDC;
+}
+
+.visiontextareatwo{
+    width:100%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px;
+}
+
+.visiontextareatwo-one{
+    height:100%;
+    width:50%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.visiontextareatwo-two{
+    height:100%;
+    width:50%;
+    display: flex;
+    align-items: flex-start;
+    border-left: 1px solid #353839 ;
+}
+
+.visiontextareatwo p{
+    color:#353839;
+    text-align:justify;;
+    font-size:14px;
+    padding: 10px;;
+    font-weight:400;
+    color: #353839;
+}

@@ -1,0 +1,216 @@
+@import url(../homecss/servicesection.css);
+section#secondsection{
+    height:150vh;
+    width:100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:15%;
+    width:100%;
+   
+}
+
+.text h1{
+    font-size: 40px;
+    color:#353839;
+    font-weight:300;
+}
+
+.secondbody{
+    height:100%;
+    width:100%;
+    display: flex;
+}
+
+.firstbox{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagebox{
+    height:95%;
+    width:80%;
+    background-image: url('/images/homeimages/image1.jpg');
+    background-size: cover;
+    background-position:center center;
+   
+}
+
+.overlay{
+    height:100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition:all 0.3s ease 0.1s;
+    display: flex;
+    flex-flow: column;
+}
+
+.blankbox{
+    height:75%;
+    width:100%;
+}
+
+.textbox{
+    height:25%;
+    width:100%;
+}
+
+.overlay h1{
+    color:#F4EBDC;
+    font-weight: 500;
+    font-size:30px;
+    text-align: left;
+    padding:20px;
+    height:10px;
+}
+
+.overlay p{
+    color:#F4EBDC;
+    font-weight:300;
+    text-align: justify;
+    padding:20px;
+    font-size: 15px;
+}
+
+.secondbox{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.textboxtwo{
+    width:100%;
+    height:40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.textboxtwo h1{
+    color:#353839;
+    font-size: 40px;
+    font-weight:700;
+}
+
+.textboxthree{
+    width:100%;
+    height:5%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.textboxthree h2{
+    color:#353839;
+    font-size: 15px;
+    font-weight: 400;
+    padding:10px;
+}
+
+.textboxfour{
+    display: flex;
+    align-self: flex-start;
+    width:70%;
+    height:30%;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.textboxfour p{
+    font-size:17px;
+    font-weight: 300;
+    text-align: justify;
+    padding:10px;
+    display: flex;
+    
+}
+
+.textboxfour a{
+    align-self: flex-end;
+    width:100px;
+    height:18px;
+    border-radius:30px;
+    text-align: center;
+    padding:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:500;
+    color:#353839;
+    transition:all 0.3s ease 0s;
+    font-size: 12px;;
+}
+
+.textboxfour a:hover{
+    font-weight:800;
+    color:#F4EBDC;
+    background-color:#353839 ;
+    transform: scale(1.2);
+}
+
+.partnerbox{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+}
+
+.partnerboxtextarea{
+    height:5%;
+    width:100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.partnerboxtextarea h1{
+    color:gray;
+    font-weight:500;
+    font-size:18px;
+}
+
+.partnerlogo{
+    height:50%;
+    width:90%;
+    align-self: center;
+    display: flex;
+    flex-flow:column;
+    align-content: center;
+}
+
+.logoone{
+    height:50%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo{
+    width:33.33%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo img{
+    width:150px;
+    height:30px;
+}
+
+.logotwo{
+    height:50%;
+    width:100%;
+    display: flex;
+}

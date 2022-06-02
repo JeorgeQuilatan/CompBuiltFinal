@@ -1,0 +1,62 @@
+document.getElementById('dot1').addEventListener('click', function () {
+  document.querySelector('.mySlidestwo').style.display = 'none';
+  document.querySelector('.mySlidesthree').style.display = 'none';
+  document.querySelector('.mySlidesone').style.display = 'flex';
+});
+
+document.getElementById('dot2').addEventListener('click', function () {
+  document.querySelector('.mySlidesone').style.display = 'none';
+  document.querySelector('.mySlidesthree').style.display = 'none';
+  document.querySelector('.mySlidestwo').style.display = 'flex';
+});
+
+document.getElementById('dot3').addEventListener('click', function () {
+  document.querySelector('.mySlidesone').style.display = 'none';
+  document.querySelector('.mySlidestwo').style.display = 'none';
+  document.querySelector('.mySlidesthree').style.display = 'flex';
+});
+
+document.getElementById('dot4').addEventListener('click', function () {
+  document.querySelector('.productone-b').style.display = 'none';
+  document.querySelector('.productone').style.display = 'flex';
+});
+
+
+document.getElementById('dot5').addEventListener('click', function () {
+  document.querySelector('.productone').style.display = 'none';
+  document.querySelector('.productone-b').style.display = 'flex';
+});
+
+document.getElementById('dot6').addEventListener('click', function () {
+  document.querySelector('.productone-b').style.display = 'none';
+  document.querySelector('.productone').style.display = 'flex';
+});
+
+
+document.getElementById('dot7').addEventListener('click', function () {
+  document.querySelector('.productone').style.display = 'none';
+  document.querySelector('.productone-b').style.display = 'flex';
+});
+
+document.getElementById('dot8').addEventListener('click', function () {
+  document.querySelector('.producttwo-ab').style.display = 'none';
+  document.querySelector('.producttwo-a').style.display = 'flex';
+});
+
+
+document.getElementById('dot9').addEventListener('click', function () {
+  document.querySelector('.producttwo-a').style.display = 'none';
+  document.querySelector('.producttwo-ab').style.display = 'flex';
+});
+
+document.getElementById('dot10').addEventListener('click', function () {
+  document.querySelector('.producttwo-ab').style.display = 'none';
+  document.querySelector('.producttwo-a').style.display = 'flex';
+});
+
+
+document.getElementById('dot11').addEventListener('click', function () {
+  document.querySelector('.producttwo-a').style.display = 'none';
+  document.querySelector('.productone-ab').style.display = 'flex';
+});
+

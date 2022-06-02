@@ -1,0 +1,86 @@
+section#peripherals {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+.container-peripherals {
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box {
+    width: 20%;
+    height: 100%;
+    background-color: #353839;
+    transition: .3s;
+}
+
+.box:hover {
+    background-color: #F4EBDC;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7), 0 12px 40px 0 rgba(0, 0, 0, 0.7);
+}
+
+.box:hover h2 {
+    color: #353839;
+    font-size: 40px;
+}
+
+.box:hover p {
+    color: #353839;
+    font-size: 20px;
+}
+
+.mouse {
+    width: 100%;
+    height: 50%;
+    background-image:url(../images/mouse.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kb {
+    width: 100%;
+    height: 50%;
+    background-image:url(../images/kb.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headset {
+    width: 100%;
+    height: 50%;
+    background-image:url(../images/headset.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.monitor {
+    width: 100%;
+    height: 50%;
+    background-image:url(../images/monitor.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box h2 {
+    color: #F4EBDC;
+    text-align: center;
+}
+
+.box p {
+    color: #F4EBDC;
+    text-align: center;
+}

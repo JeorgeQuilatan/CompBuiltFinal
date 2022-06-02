@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/26bf3a42a6.js"></script>
+    <link href="/css/productfeatures.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <section id="header">
+        <div class="header">
+            <div class="logo">
+                <img src="../images/logo/white.png" />
+                <link href="style2.css" rel="stylesheet" />
+                <h1>COMPBUILT</h1>
+            </div>
+
+            <nav>
+
+                <ul>
+                    <li><a href="/html/home.html">HOME</a></li>
+                    <li><a href="/html/about.html">ABOUT US</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">PRODUCT&nbsp;</i></button>
+                        <div class="dropdown-content">
+                            <a href="/html/product.html">PRODUCTS</a>
+                            <a href="/html/productfeatures.html">BUILD</a>
+                        </div>
+                    </div>
+                    <li><a href="/html/services.html">SERVICES</a></li>
+                    <li><a href="/html/techsupport.html">TECH SUPPORT</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </section>
+
+    <div style="height:5vh">
+
+    </div>
+    <h5 class="buildheader">
+        BUILD YOUR DREAM COMPUTER
+    </h5>
+
+    <section class="formsec">
+        <div class="row1">
+            <h3>
+                Price Range
+            </h3>
+            <form>
+                <input type="radio" id="budget" name="price" value="1" />
+                <label for="budget">Below 2999 AED</label>
+                <input type="radio" id="midrange" name="price" value="2" />
+                <label for="midrange">3000 AED - 5999 AED</label>
+                <input type="radio" id="highend" name="price" value="3" />
+                <label for="highend">Above 6000 AED</label>
+            </form>
+
+
+            <h3>
+                Build Use
+            </h3>
+            <form>
+                <input type="radio" id="gaming" name="use" value="1" />
+                <label for="gaming">Gaming</label>
+                <input type="radio" id="work" name="use" value="2" />
+                <label for="work">Work</label>
+            </form>
+
+
+            <h3>
+                Build Theme
+            </h3>
+            <form class="search">
+                <input type="radio" id="white" name="theme" value="1" />
+                <label for="white">White</label>
+                <input type="radio" id="black" name="theme" value="2" />
+                <label for="black">Black</label>
+            </form>
+
+            <button name="product_select" class="submitbtn">Submit</button>
+
+            <button class="reset">Reset</button>
+
+            <button class="order"style="display:none; background-color:lightgreen;">Order this Build</button>
+        </div>
+
+        <!--RESULTS AREA-->
+        <div class="defaultdiv row2 fade" style="align-content:center;align-items:center;">
+            <img src="../images/default.jpg" style="height:100vh"/>
+        </div>
+
+        <div id="111" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">Intel Core i5 is a great processor that is made for mainstream users who care about performance, speed and graphics. The Core i5 is suitable for most tasks, even heavy gaming. </p>
+                    <img class="box-img" src="../images/product/i5.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX™ 3050 is built with the powerful graphics performance of the NVIDIA Ampere architecture. It offers dedicated 2nd gen RT Cores and 3rd gen Tensor Cores, new streaming multiprocessors, and high-speed G6 memory to tackle the latest games. Step up to GeForce RTX.</p>
+                    <img class="box-img" src="../images/product/3050.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">Crucial Ballistix (16 GB Kit) is an instant upgrade for XMP-ready workstations. Whether you’re working with photos, videos, animation, or other creative software</p>
+                    <img class="box-img" src="../images/product/crucial-white-low.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        The Intel Original E97379-003 CPU Cooler is the ideal choice for efficient cooling performance at an affordable price. With the PWM function, it only operates when it needs to, saving time, energy and maximising its life-span.
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-stock.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">The ASUS Prime H510M-E motherboard is designed to support latest Intel Socket LGA1200 for 11th Gen Intel Core processors & 10th Gen Intel Core. The board is PCIe 4.0 Ready supporting up to 64GB DDR4 3200MHz(OC) of memory and Intel Turbo Boost Technology to push your experience to its peak.</p>
+                    <img class="box-img" src="../images/product/h410m.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">WD Green hard drives are designed for use in systems that require cool and quiet operation, as secondary drives in PCs, for external enclosures and other applications for which low noise and low heat are beneficial. These earth-friendly hard drives are ideal for use whenever energy efficiency is needed.</p>"
+                    <img class="box-img" src="../images/product/hdd-2tb.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">This compact mid-tower is an ideal case for the majority of builds. The H510 is easy-to-build-in and offers flexibility for a variety of ATX parts.</p>
+                    <img class="box-img" src="../images/product/h510.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">Incorporating various high-quality components, the new Litepower Series – rated from 350W to 650W – saves energy through its high efficiency up to 85% and accommodates any build with the most demanding requirements. An embedded intelligent cooling fan delivers excellent airflow at an exceptionally low noise level. In addition, the single +12V rail design enables non-stop usage with stable and reliable performance.</p>
+                    <img class="box-img" src="../images/product/thermaltake-650w.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-1.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="112" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">Intel Core i5 is a great processor that is made for mainstream users who care about performance, speed and graphics. The Core i5 is suitable for most tasks, even heavy gaming. </p>
+                    <img class="box-img" src="../images/product/i5.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX™ 3050 is built with the powerful graphics performance of the NVIDIA Ampere architecture. It offers dedicated 2nd gen RT Cores and 3rd gen Tensor Cores, new streaming multiprocessors, and high-speed G6 memory to tackle the latest games. Step up to GeForce RTX.</p>
+                    <img class="box-img" src="../images/product/3050.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">Crucial Ballistix (16 GB Kit) is an instant upgrade for XMP-ready workstations. Whether you’re working with photos, videos, animation, or other creative software</p>
+                    <img class="box-img" src="../images/product/crucial-black-low.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        The Intel Original E97379-003 CPU Cooler is the ideal choice for efficient cooling performance at an affordable price. With the PWM function, it only operates when it needs to, saving time, energy and maximising its life-span.
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-stock.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">The ASUS Prime H510M-E motherboard is designed to support latest Intel Socket LGA1200 for 11th Gen Intel Core processors & 10th Gen Intel Core. The board is PCIe 4.0 Ready supporting up to 64GB DDR4 3200MHz(OC) of memory and Intel Turbo Boost Technology to push your experience to its peak.</p>
+                    <img class="box-img" src="../images/product/h410m.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">WD Green hard drives are designed for use in systems that require cool and quiet operation, as secondary drives in PCs, for external enclosures and other applications for which low noise and low heat are beneficial. These earth-friendly hard drives are ideal for use whenever energy efficiency is needed.</p>"
+                    <img class="box-img" src="../images/product/hdd-2tb.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">This compact mid-tower is an ideal case for the majority of builds. The H510 is easy-to-build-in and offers flexibility for a variety of ATX parts.</p>
+                    <img class="box-img" src="../images/product/h510-black.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">Incorporating various high-quality components, the new Litepower Series – rated from 350W to 650W – saves energy through its high efficiency up to 85% and accommodates any build with the most demanding requirements. An embedded intelligent cooling fan delivers excellent airflow at an exceptionally low noise level. In addition, the single +12V rail design enables non-stop usage with stable and reliable performance.</p>
+                    <img class="box-img" src="../images/product/thermaltake-650w.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-4.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="121" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">Intel Core i5 is a great processor that is made for mainstream users who care about performance, speed and graphics. The Core i5 is suitable for most tasks, even heavy gaming. </p>
+                    <img class="box-img" src="../images/product/i5.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX™ 3050 is built with the powerful graphics performance of the NVIDIA Ampere architecture. It offers dedicated 2nd gen RT Cores and 3rd gen Tensor Cores, new streaming multiprocessors, and high-speed G6 memory to tackle the latest games. Step up to GeForce RTX.</p>
+                    <img class="box-img" src="../images/product/3050.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">Crucial Ballistix (16 GB Kit) is an instant upgrade for XMP-ready workstations. Whether you’re working with photos, videos, animation, or other creative software</p>
+                    <img class="box-img" src="../images/product/crucial-white-low.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        The Intel Original E97379-003 CPU Cooler is the ideal choice for efficient cooling performance at an affordable price. With the PWM function, it only operates when it needs to, saving time, energy and maximising its life-span.
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-stock.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">The ASUS Prime H510M-E motherboard is designed to support latest Intel Socket LGA1200 for 11th Gen Intel Core processors & 10th Gen Intel Core. The board is PCIe 4.0 Ready supporting up to 64GB DDR4 3200MHz(OC) of memory and Intel Turbo Boost Technology to push your experience to its peak.</p>
+                    <img class="box-img" src="../images/product/h410m.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">WD Green hard drives are designed for use in systems that require cool and quiet operation, as secondary drives in PCs, for external enclosures and other applications for which low noise and low heat are beneficial. These earth-friendly hard drives are ideal for use whenever energy efficiency is needed.</p>"
+                    <img class="box-img" src="../images/product/hdd-2tb.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">This compact mid-tower is an ideal case for the majority of builds. The H510 is easy-to-build-in and offers flexibility for a variety of ATX parts.</p>
+                    <img class="box-img" src="../images/product/h510.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">Incorporating various high-quality components, the new Litepower Series – rated from 350W to 650W – saves energy through its high efficiency up to 85% and accommodates any build with the most demanding requirements. An embedded intelligent cooling fan delivers excellent airflow at an exceptionally low noise level. In addition, the single +12V rail design enables non-stop usage with stable and reliable performance.</p>
+                    <img class="box-img" src="../images/product/thermaltake-650w.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-2.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="122" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">Intel Core i5 is a great processor that is made for mainstream users who care about performance, speed and graphics. The Core i5 is suitable for most tasks, even heavy gaming. </p>
+                    <img class="box-img" src="../images/product/i5.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX™ 3050 is built with the powerful graphics performance of the NVIDIA Ampere architecture. It offers dedicated 2nd gen RT Cores and 3rd gen Tensor Cores, new streaming multiprocessors, and high-speed G6 memory to tackle the latest games. Step up to GeForce RTX.</p>
+                    <img class="box-img" src="../images/product/3050.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">Crucial Ballistix (16 GB Kit) is an instant upgrade for XMP-ready workstations. Whether you’re working with photos, videos, animation, or other creative software</p>
+                    <img class="box-img" src="../images/product/crucial-black-low.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        The Intel Original E97379-003 CPU Cooler is the ideal choice for efficient cooling performance at an affordable price. With the PWM function, it only operates when it needs to, saving time, energy and maximising its life-span.
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-stock.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">The ASUS Prime H510M-E motherboard is designed to support latest Intel Socket LGA1200 for 11th Gen Intel Core processors & 10th Gen Intel Core. The board is PCIe 4.0 Ready supporting up to 64GB DDR4 3200MHz(OC) of memory and Intel Turbo Boost Technology to push your experience to its peak.</p>
+                    <img class="box-img" src="../images/product/h410m.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">WD Green hard drives are designed for use in systems that require cool and quiet operation, as secondary drives in PCs, for external enclosures and other applications for which low noise and low heat are beneficial. These earth-friendly hard drives are ideal for use whenever energy efficiency is needed.</p>"
+                    <img class="box-img" src="../images/product/hdd-2tb.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">This compact mid-tower is an ideal case for the majority of builds. The H510 is easy-to-build-in and offers flexibility for a variety of ATX parts.</p>
+                    <img class="box-img" src="../images/product/h510-black.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">Incorporating various high-quality components, the new Litepower Series – rated from 350W to 650W – saves energy through its high efficiency up to 85% and accommodates any build with the most demanding requirements. An embedded intelligent cooling fan delivers excellent airflow at an exceptionally low noise level. In addition, the single +12V rail design enables non-stop usage with stable and reliable performance.</p>
+                    <img class="box-img" src="../images/product/thermaltake-650w.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-3.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="211" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">Intel Core i7 is the fastest version of the Intel processor for consumer-end computers and devices. Like the Intel Corei5, the Corei7 is embedded with Intel Turbo Boost Technology. The Intel Corei7 is available in two- to six-core varieties, and can support up to 12 different threads simultaneously. </p>
+                    <img class="box-img" src="../images/product/cpu2.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX 3070 is powered by Ampere—NVIDIA's 2nd gen RTX architecture. Built with enhanced Ray Tracing Cores and Tensor Cores, new streaming multiprocessors, and high-speed G6 memory, it gives you the power you need to rip through the most demanding games.</p>
+                    <img class="box-img" src="../images/product/3070-white.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">Crucial Ballistix (16 GB Kit) is an instant upgrade for XMP-ready workstations. Whether you’re working with photos, videos, animation, or other creative software</p>
+                    <img class="box-img" src="../images/product/crucial-white-low.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        Hyper 212 LED is equipped with PWM fan with red LEDs, providing the best balance between airflow and static pressure to take the heat away.
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-2.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">ASUS Prime series is expertly engineered to unleash the full potential of 10th Gen Intel® Core™ processors. Boasting a robust power design, comprehensive cooling solutions and intelligent tuning options, Prime Z490 series motherboards provide daily users and DIY PC builders a range of performance tuning options via intuitive software and firmware features.</p>
+                    <img class="box-img" src="../images/product/mobo-2.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">A solid-state drive (SSD) is a new generation of storage device used in computers. SSDs use flash-based memory, which is much faster than a traditional mechanical hard disk.</p>"
+                    <img class="box-img" src="../images/product/ssd-2.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">The CORSAIR 4000D AIRFLOW is a distinctive, high-airflow optimized mid-tower ATX case with easy cable management and two included CORSAIR 120mm AirGuide fans for exceptional cooling.</p>
+                    <img class="box-img" src="../images/product/case-2-white.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">Incorporating various high-quality components, the new Litepower Series – rated from 350W to 650W – saves energy through its high efficiency up to 85% and accommodates any build with the most demanding requirements. An embedded intelligent cooling fan delivers excellent airflow at an exceptionally low noise level. In addition, the single +12V rail design enables non-stop usage with stable and reliable performance.</p>
+                    <img class="box-img" src="../images/product/thermaltake-650w.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-5.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="221" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">i7 is the fastest version of the Intel processor for consumer-end computers and devices. Like the Intel Corei5, the Corei7 is embedded with Intel Turbo Boost Technology. The Intel Corei7 is available in two- to six-core varieties, and can support up to 12 different threads simultaneously. </p>
+                    <img class="box-img" src="../images/product/cpu2.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX 3070 is powered by Ampere—NVIDIA's 2nd gen RTX architecture. Built with enhanced Ray Tracing Cores and Tensor Cores, new streaming multiprocessors, and high-speed G6 memory, it gives you the power you need to rip through the most demanding games..</p>
+                    <img class="box-img" src="../images/product/3070-white.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">Crucial Ballistix (16 GB Kit) is an instant upgrade for XMP-ready workstations. Whether you’re working with photos, videos, animation, or other creative software</p>
+                    <img class="box-img" src="../images/product/crucial-white-low.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        Hyper 212 LED is equipped with PWM fan with red LEDs, providing the best balance between airflow and static pressure to take the heat away.
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-2.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">ASUS Prime series is expertly engineered to unleash the full potential of 10th Gen Intel® Core™ processors. Boasting a robust power design, comprehensive cooling solutions and intelligent tuning options, Prime Z490 series motherboards provide daily users and DIY PC builders a range of performance tuning options via intuitive software and firmware features.</p>
+                    <img class="box-img" src="../images/product/mobo-2.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">A solid-state drive (SSD) is a new generation of storage device used in computers. SSDs use flash-based memory, which is much faster than a traditional mechanical hard disk.</p>"
+                    <img class="box-img" src="../images/product/ssd-2.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">The CORSAIR 4000D AIRFLOW is a distinctive, high-airflow optimized mid-tower ATX case with easy cable management and two included CORSAIR 120mm AirGuide fans for exceptional cooling.</p>
+                    <img class="box-img" src="../images/product/case-221.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">Incorporating various high-quality components, the new Litepower Series – rated from 350W to 650W – saves energy through its high efficiency up to 85% and accommodates any build with the most demanding requirements. An embedded intelligent cooling fan delivers excellent airflow at an exceptionally low noise level. In addition, the single +12V rail design enables non-stop usage with stable and reliable performance.</p>
+                    <img class="box-img" src="../images/product/thermaltake-650w.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-6.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="212" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">i7 is the fastest version of the Intel processor for consumer-end computers and devices. Like the Intel Corei5, the Corei7 is embedded with Intel Turbo Boost Technology. The Intel Corei7 is available in two- to six-core varieties, and can support up to 12 different threads simultaneously.</p>
+                    <img class="box-img" src="../images/product/cpu2.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX 3070 is powered by Ampere—NVIDIA's 2nd gen RTX architecture. Built with enhanced Ray Tracing Cores and Tensor Cores, new streaming multiprocessors, and high-speed G6 memory, it gives you the power you need to rip through the most demanding games.</p>
+                    <img class="box-img" src="../images/product/3070-black.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">Crucial Ballistix (16 GB Kit) is an instant upgrade for XMP-ready workstations. Whether you’re working with photos, videos, animation, or other creative software</p>
+                    <img class="box-img" src="../images/product/crucial-black-low.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        Hyper 212 LED is equipped with PWM fan with red LEDs, providing the best balance between airflow and static pressure to take the heat away.
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-212.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">ASUS Prime series is expertly engineered to unleash the full potential of 10th Gen Intel® Core™ processors. Boasting a robust power design, comprehensive cooling solutions and intelligent tuning options, Prime Z490 series motherboards provide daily users and DIY PC builders a range of performance tuning options via intuitive software and firmware features.</p>
+                    <img class="box-img" src="../images/product/mobo-2.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">A solid-state drive (SSD) is a new generation of storage device used in computers. SSDs use flash-based memory, which is much faster than a traditional mechanical hard disk.</p>"
+                    <img class="box-img" src="../images/product/ssd-2.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">The CORSAIR 4000D AIRFLOW is a distinctive, high-airflow optimized mid-tower ATX case with easy cable management and two included CORSAIR 120mm AirGuide fans for exceptional cooling.</p>
+                    <img class="box-img" src="../images/product/case-212.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">Incorporating various high-quality components, the new Litepower Series – rated from 350W to 650W – saves energy through its high efficiency up to 85% and accommodates any build with the most demanding requirements. An embedded intelligent cooling fan delivers excellent airflow at an exceptionally low noise level. In addition, the single +12V rail design enables non-stop usage with stable and reliable performance.</p>
+                    <img class="box-img" src="../images/product/thermaltake-650w.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-7.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="222" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">i7 is the fastest version of the Intel processor for consumer-end computers and devices. Like the Intel Corei5, the Corei7 is embedded with Intel Turbo Boost Technology. The Intel Corei7 is available in two- to six-core varieties, and can support up to 12 different threads simultaneously.</p>
+                    <img class="box-img" src="../images/product/cpu2.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX 3070 is powered by Ampere—NVIDIA's 2nd gen RTX architecture. Built with enhanced Ray Tracing Cores and Tensor Cores, new streaming multiprocessors, and high-speed G6 memory, it gives you the power you need to rip through the most demanding games.</p>
+                    <img class="box-img" src="../images/product/3070-black.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">Crucial Ballistix (16 GB Kit) is an instant upgrade for XMP-ready workstations. Whether you’re working with photos, videos, animation, or other creative software</p>
+                    <img class="box-img" src="../images/product/crucial-black-low.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        Hyper 212 LED is equipped with PWM fan with red LEDs, providing the best balance between airflow and static pressure to take the heat away.
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-212.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">ASUS Prime series is expertly engineered to unleash the full potential of 10th Gen Intel® Core™ processors. Boasting a robust power design, comprehensive cooling solutions and intelligent tuning options, Prime Z490 series motherboards provide daily users and DIY PC builders a range of performance tuning options via intuitive software and firmware features.</p>
+                    <img class="box-img" src="../images/product/mobo-2.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">A solid-state drive (SSD) is a new generation of storage device used in computers. SSDs use flash-based memory, which is much faster than a traditional mechanical hard disk.</p>"
+                    <img class="box-img" src="../images/product/ssd-2.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">The CORSAIR 4000D AIRFLOW is a distinctive, high-airflow optimized mid-tower ATX case with easy cable management and two included CORSAIR 120mm AirGuide fans for exceptional cooling.</p>
+                    <img class="box-img" src="../images/product/case-222.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">Incorporating various high-quality components, the new Litepower Series – rated from 350W to 650W – saves energy through its high efficiency up to 85% and accommodates any build with the most demanding requirements. An embedded intelligent cooling fan delivers excellent airflow at an exceptionally low noise level. In addition, the single +12V rail design enables non-stop usage with stable and reliable performance.</p>
+                    <img class="box-img" src="../images/product/thermaltake-650w.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-8.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="311" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">Intel Core i9 CPUs feature as few as six and as many as eighteen cores, with two threads per core when hyperthreading is enabled. Its frequencies range from 2.9 to 3.6 GHz, and up to 5.0 GHz when using Intel Turbo Boost. </p>
+                    <img class="box-img" src="../images/product/i9.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX™ 3090 Ti and 3090 are big ferocious GPUs (BFGPUs) with TITAN class performance. Powered by Ampere—NVIDIA's 2nd gen RTX architecture—they double down on ray tracing and AI performance with enhanced Ray Tracing Cores, Tensor Cores, and new streaming multiprocessors.</p>
+                    <img class="box-img" src="../images/product/3090-white.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">VENGEANCE® RGB PRO 32GB (2 x 16GB) DDR4 DRAM 3200MHz C16 Memory Kit — Black. CORSAIR VENGEANCE RGB PRO Series DDR4 overclocked memory lights up your PC with mesmerizing dynamic multi-zone RGB lighting, while delivering the best in DDR4 performance.</p>
+                    <img class="box-img" src="../images/product/ram-311.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        360 millimeters radiator our aluminum 360 millimeters large surface radiator will remove excess heat from the CPU and cool with maximum efficiency
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-311.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">The ASUS ROG MAXIMUS Z690 HERO is an ATX (30.5x24.4cm) motherboard with the Intel Z690 chipset. The Intel Z690 chipset is a top-level chipset that can be used for memory overclocking as well as CPU overclocking.</p>
+                    <img class="box-img" src="../images/product/mobo-311.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">The Sabrent 4TB Rocket NVMePCIe M. 2 2280 Internal SSD high-performance solid-state Drive (SB-ROCKET-4TB) delivers all the advantages of Flash Disk Technology with PCIe Gen3 x4 interface and it is fully compliant with the standard next-generation form factor (NGFF), commonly known as M. 2.</p>"
+                    <img class="box-img" src="../images/product/ssd-311.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">The O11 Dynamic series classic tinted glass and brushed aluminum panel are once again combined in proper proportion. Fulfill your dream's all-white build with a completely white chassis, down to the smallest detail.</p>
+                    <img class="box-img" src="../images/product/case-311.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">The ROG Strix 1000W Gold PSU brings premium cooling performance to heavyweight gaming rigs. ROG heatsinks cover critical components, delivering lower temperatures and reduced noise.</p>
+                    <img class="box-img" src="../images/product/psu-311.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-9.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="321" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">Intel Core i9 CPUs feature as few as six and as many as eighteen cores, with two threads per core when hyperthreading is enabled. Its frequencies range from 2.9 to 3.6 GHz, and up to 5.0 GHz when using Intel Turbo Boost. </p>
+                    <img class="box-img" src="../images/product/i9.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX™ 3090 Ti and 3090 are big ferocious GPUs (BFGPUs) with TITAN class performance. Powered by Ampere—NVIDIA's 2nd gen RTX architecture—they double down on ray tracing and AI performance with enhanced Ray Tracing Cores, Tensor Cores, and new streaming multiprocessors.</p>
+                    <img class="box-img" src="../images/product/3090-white.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">VENGEANCE® RGB PRO 32GB (2 x 16GB) DDR4 DRAM 3200MHz C16 Memory Kit — Black. CORSAIR VENGEANCE RGB PRO Series DDR4 overclocked memory lights up your PC with mesmerizing dynamic multi-zone RGB lighting, while delivering the best in DDR4 performance.</p>
+                    <img class="box-img" src="../images/product/ram-311.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        360 millimeters radiator our aluminum 360 millimeters large surface radiator will remove excess heat from the CPU and cool with maximum efficiency
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-311.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">The ASUS ROG MAXIMUS Z690 HERO is an ATX (30.5x24.4cm) motherboard with the Intel Z690 chipset. The Intel Z690 chipset is a top-level chipset that can be used for memory overclocking as well as CPU overclocking.</p>
+                    <img class="box-img" src="../images/product/mobo-311.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">The Sabrent 4TB Rocket NVMePCIe M. 2 2280 Internal SSD high-performance solid-state Drive (SB-ROCKET-4TB) delivers all the advantages of Flash Disk Technology with PCIe Gen3 x4 interface and it is fully compliant with the standard next-generation form factor (NGFF), commonly known as M. 2.</p>"
+                    <img class="box-img" src="../images/product/ssd-311.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">The O11 Dynamic series classic tinted glass and brushed aluminum panel are once again combined in proper proportion. Fulfill your dream's all-white build with a completely white chassis, down to the smallest detail.</p>
+                    <img class="box-img" src="../images/product/case-311.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">The ROG Strix 1000W Gold PSU brings premium cooling performance to heavyweight gaming rigs. ROG heatsinks cover critical components, delivering lower temperatures and reduced noise.</p>
+                    <img class="box-img" src="../images/product/psu-311.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-10.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="312" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">Intel Core i9 CPUs feature as few as six and as many as eighteen cores, with two threads per core when hyperthreading is enabled. Its frequencies range from 2.9 to 3.6 GHz, and up to 5.0 GHz when using Intel Turbo Boost.</p>
+                    <img class="box-img" src="../images/product/i9.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX™ 3090 Ti and 3090 are big ferocious GPUs (BFGPUs) with TITAN class performance. Powered by Ampere—NVIDIA's 2nd gen RTX architecture—they double down on ray tracing and AI performance with enhanced Ray Tracing Cores, Tensor Cores, and new streaming multiprocessors.</p>
+                    <img class="box-img" src="../images/product/3090-black.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">VENGEANCE® RGB PRO 32GB (2 x 16GB) DDR4 DRAM 3200MHz C16 Memory Kit — Black. CORSAIR VENGEANCE RGB PRO Series DDR4 overclocked memory lights up your PC with mesmerizing dynamic multi-zone RGB lighting, while delivering the best in DDR4 performance.</p>
+                    <img class="box-img" src="../images/product/ram-312.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        Featuring a chamfered intake and fluid dynamic bearings, they deliver silent operation, long-term reliability, and powerful cooling performance. Fine nylon mesh sleeves strengthen the rubber tubing, providing durability and protection against mishandling.
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-312.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">The ASUS ROG MAXIMUS Z690 HERO is an ATX (30.5x24.4cm) motherboard with the Intel Z690 chipset. The Intel Z690 chipset is a top-level chipset that can be used for memory overclocking as well as CPU overclocking.</p>
+                    <img class="box-img" src="../images/product/mobo-312.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">The Sabrent 4TB Rocket NVMePCIe M. 2 2280 Internal SSD high-performance solid-state Drive (SB-ROCKET-4TB) delivers all the advantages of Flash Disk Technology with PCIe Gen3 x4 interface and it is fully compliant with the standard next-generation form factor (NGFF), commonly known as M. 2.</p>"
+                    <img class="box-img" src="../images/product/ssd-311.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">The O11 Dynamic series classic tinted glass and brushed aluminum panel are once again combined in proper proportion. Fulfill your dream's all-white build with a completely white chassis, down to the smallest detail.</p>
+                    <img class="box-img" src="../images/product/case-312.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">The ROG Strix 1000W Gold PSU brings premium cooling performance to heavyweight gaming rigs. ROG heatsinks cover critical components, delivering lower temperatures and reduced noise.</p>
+                    <img class="box-img" src="../images/product/psu-311.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-11.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div id="322" class="row2 fade" style="display:none">
+            <!--$-Gaming-White-->
+            <div class="row-1">
+                <div class="box box-1">
+                    <!--CPU-->
+
+                    <p class="text-overlay">Intel Core i9 CPUs feature as few as six and as many as eighteen cores, with two threads per core when hyperthreading is enabled. Its frequencies range from 2.9 to 3.6 GHz, and up to 5.0 GHz when using Intel Turbo Boost.</p>
+                    <img class="box-img" src="../images/product/i9.jpg" />
+
+                </div>
+
+                <div class="box box-2">
+                    <!--GPU-->
+                    <p class="text-overlay">The GeForce RTX™ 3090 Ti and 3090 are big ferocious GPUs (BFGPUs) with TITAN class performance. Powered by Ampere—NVIDIA's 2nd gen RTX architecture—they double down on ray tracing and AI performance with enhanced Ray Tracing Cores, Tensor Cores, and new streaming multiprocessors.</p>
+                    <img class="box-img" src="../images/product/3090-black.jpg" />
+                </div>
+
+                <div class="box box-3">
+                    <!--RAM-->
+                    <p class="text-overlay">VENGEANCE® RGB PRO 32GB (2 x 16GB) DDR4 DRAM 3200MHz C16 Memory Kit — Black. CORSAIR VENGEANCE RGB PRO Series DDR4 overclocked memory lights up your PC with mesmerizing dynamic multi-zone RGB lighting, while delivering the best in DDR4 performance.</p>
+                    <img class="box-img" src="../images/product/ram-312.jpg" />
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="box box-1">
+                    <!--Cooler-->
+                    <p class="text-overlay">
+                        Featuring a chamfered intake and fluid dynamic bearings, they deliver silent operation, long-term reliability, and powerful cooling performance. Fine nylon mesh sleeves strengthen the rubber tubing, providing durability and protection against mishandling.
+                    </p>
+                    <img class="box-img" src="../images/product/cooler-312.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--Motherboard-->
+                    <p class="text-overlay">The ASUS ROG MAXIMUS Z690 HERO is an ATX (30.5x24.4cm) motherboard with the Intel Z690 chipset. The Intel Z690 chipset is a top-level chipset that can be used for memory overclocking as well as CPU overclocking.</p>
+                    <img class="box-img" src="../images/product/mobo-312.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Storage-->
+                    <p class="text-overlay">The Sabrent 4TB Rocket NVMePCIe M. 2 2280 Internal SSD high-performance solid-state Drive (SB-ROCKET-4TB) delivers all the advantages of Flash Disk Technology with PCIe Gen3 x4 interface and it is fully compliant with the standard next-generation form factor (NGFF), commonly known as M. 2.</p>"
+                    <img class="box-img" src="../images/product/ssd-311.jpg" />
+                </div>
+            </div>
+
+            <div class="row-3">
+                <div class="box box-1">
+                    <!--Case-->
+                    <p class="text-overlay">The O11 Dynamic series classic tinted glass and brushed aluminum panel are once again combined in proper proportion. Fulfill your dream's all-white build with a completely white chassis, down to the smallest detail.</p>
+                    <img class="box-img" src="../images/product/case-312.jpg" />
+                </div>
+                <div class="box box-2">
+                    <!--PSU-->
+                    <p class="text-overlay">The ROG Strix 1000W Gold PSU brings premium cooling performance to heavyweight gaming rigs. ROG heatsinks cover critical components, delivering lower temperatures and reduced noise.</p>
+                    <img class="box-img" src="../images/product/psu-311.jpg" />
+                </div>
+                <div class="box box-3">
+                    <!--Sample (no need to change paragraph)-->
+                    <p class="text-overlay">Here is a sample of a complete setup with peripherals using all the components in this build.</p>
+                    <img class="box-img" src="../images/product/setup-12.jpg" />
+                </div>
+            </div>
+        </div>
+    
+        <!--END OF RESULTS-->
+    </section>
+    <section id="footer">
+        <div class="footerbody">
+            <div class="footerbodya">
+                <div class="footerboxone">
+                    <div class="footerlogoarea">
+                        <img src="/images/logo/white.png"/>
+                        <h1>COMPBUILT</h1>
+
+                    </div>
+
+                    <div class="contactarea">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+44 (0) 845 180 9292</p>
+                    </div>
+
+                    <div class="emailarea">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>compbuilts@gmail.com</p>
+                    </div>
+
+                    <div class="igarea">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>@compbuilt</p>
+                    </div>
+                    
+                </div>
+                <div class="footerboxtwo">
+                    <div class="producthead">
+                        <h1>PRODUCTS</h1>
+                    </div>
+
+                    <div class="footerproductbody">
+                        <a>CPU</a>
+                        <a>GRAPHICS CARD</a>
+                        <a>MOTHERBOARD</a>
+                        <a>RAM</a>
+                        <a>MOTHERBOARD</a>
+                    </div>
+                    
+                </div>
+                <div class="footerboxthree">
+                    <div class="pagehead">
+                        <h1>PAGES</h1>
+                    </div>
+
+                    <div class="footerboxpage">
+                        <a>HOME</a>
+                        <a>ABOUT US</a>
+                        <a>PRODUCT</a>
+                        <a>SERVICES</a>
+                        <a>TECH SUPPORT</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="footerbodyb">
+                <p class="firstp">&copy;COMPBUILT. All rights reserved</p>
+                <p class="secondp">Website created by: Team 5</p>
+            </div>         
+        </div>
+    </section>
+
+    <div style="height:10vh">
+
+    </div>
+    <script>
+        var divID = "";
+
+        $(function () {
+            $('button[name=product_select').on("click", function (ev) {
+                var $price = $('input[name="price"]:checked');
+                var $use = $('input[name="use"]:checked');
+                var $theme = $('input[name="theme"]:checked');
+                var divID = $price.val() + $use.val() + $theme.val();
+
+                $("#" + divID).css("display", "block");
+                if (divID.length!=3) {
+                    alert("Invalid Choices");
+                } else {
+                    $(".submitbtn").css("display", "none");
+                    $(".defaultdiv").css("display", "none");
+                    $(".reset").css("display", "block");
+                    $(".order").css("display", "block");
+                }
+                
+            });
+        })
+
+        $(function () {
+            $('button[class=reset]').on("click", function (ev) {
+                $(".submitbtn").css("display", "block");
+                $(".reset").css("display", "none");
+                $(".order").css("display", "none");
+                location.reload();
+            });
+        })
+    </script>
+
+
+
+
+
+</body>
+</html>
